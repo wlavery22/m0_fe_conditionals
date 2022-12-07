@@ -27,22 +27,46 @@ if (weather === "sunny") {
 
 // Experiment with manipulating the value held in variable 'weather'
 // to print something other than 'coat'
+weather = "hot"
+if (weather === "hot") {
+  console.log("water bottle");
+}
 
+weather = "very snowy"
+if (weather === "very snowy") {
+  console.log("boots");
+}
 
 // ##################
 // Using the numQuarters variable defined below, determine
 // if you have enough money to buy a gumball. A gumball costs
 // two quarters.
 
+if (numQuarters <2) {
+  console.log("I don't have enough money for a gumball");
+}
+
 // Right now, the program will print
 // out both "I have enough money for a gumball" and
 // "I don't have enough money for a gumball". Write a 
 // conditional statement that prints only one or the other.
 
+if (numQuarters >= 2) {
+  console.log("I have enough money for a gumball");
+} else {
+  console.log("I don't have enough money for a gumball");
+}
+
 // Experiment with manipulating the value held within numQuarters
 // to make sure both conditions can be achieved.
 
 var numQuarters = 0
+
+numQuarters = 2
+
+if (numQuarters >= 2) {
+  console.log("I have enough money for a gumball");
+}
 
 console.log("I have enough money for a gumball");
 console.log("I don't have enough money for a gumball");
@@ -65,3 +89,20 @@ console.log("I don't have enough money for a gumball");
 var cupsOfFlour = 1;
 var hasSauce = true;
 
+if (cupsOfFlour === 1 && hasSauce === true) {
+console.log("I cannot make pizza");
+}
+cupsOfFlour = 5
+hasSauce = false
+if (cupsOfFlour === 5 && hasSauce === false) {
+  console.log("I cannot make pizza");
+}
+cupsOfFlour = 2
+hasSauce = true 
+if (cupsOfFlour >=2 && hasSauce === true) {
+  console.log("I can make pizza");
+}
+cupsOfFlour = 3
+if (cupsOfFlour === 3 && hasSauce === true) {
+  console.log("I can make pizza");
+}
