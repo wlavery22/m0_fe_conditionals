@@ -42,7 +42,7 @@ if (weather === "very snowy") {
 // if you have enough money to buy a gumball. A gumball costs
 // two quarters.
 
-if (numQuarters <2) {
+if (numQuarters < 2) {
   console.log("I don't have enough money for a gumball");
 }
 
@@ -66,11 +66,9 @@ numQuarters = 2
 
 if (numQuarters >= 2) {
   console.log("I have enough money for a gumball");
+} else {
+  console.log("I don't have enough money for a gumball");
 }
-
-console.log("I have enough money for a gumball");
-console.log("I don't have enough money for a gumball");
-
 
 // #####################
 // Using the variables defined below, write code that will tell you
@@ -99,7 +97,7 @@ if (cupsOfFlour === 5 && hasSauce === false) {
 }
 cupsOfFlour = 2
 hasSauce = true 
-if (cupsOfFlour >=2 && hasSauce === true) {
+if (cupsOfFlour === 2 && hasSauce === true) {
   console.log("I can make pizza");
 }
 cupsOfFlour = 3
