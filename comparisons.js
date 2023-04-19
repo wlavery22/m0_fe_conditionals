@@ -60,21 +60,21 @@ console.log("Is numberStudents less than or equal to 21?", numberStudents <= 21)
 
 console.log(4 < 9);
 // YOU DO: Explain.
-This will answer whether 4 is less than 9. It's a comparison and it'll evaluate to true.
+// This will answer whether 4 is less than 9. It's a comparison and it'll evaluate to true.
 var books = 3;
 console.log(4 < books);
 // YOU DO: Explain.
-This compares the value of the variable "books", which is assigned "3", to the number 4, and asks if 4 is less than 3. It should evaluate to false.
+// This compares the value of the variable "books", which is assigned "3", to the number 4, and asks if 4 is less than 3. It should evaluate to false.
 var friends = 6;
 var siblings = 2;
 console.log(friends > siblings);
 // YOU DO: Explain.
-This asks if "friends", assigned 6, is greater than "siblings", assigned 2. It'll evaluate to true.
+// This asks if "friends", assigned 6, is greater than "siblings", assigned 2. It'll evaluate to true.
 var attendees = 9;
 var meals = 8;
 console.log(attendees !== meals);
 // YOU DO: Explain.
-This compares "attendees", assigned 9, to "meals", assigned 8, and asks if they are not equal. It'll evaluate to true.
+// This compares "attendees", assigned 9, to "meals", assigned 8, and asks if they are not equal. It'll evaluate to true.
 
 // #-------------------
 // PART 3: Logical Operators
@@ -109,4 +109,4 @@ console.log(lovesToPlay && age <= 1);
 console.log(lovesToPlay && age);
 // What did your final line of code evaluate to? Why do you think that is? Explain.
 // ANSWER: When I ran line 108 in Chrome Dev Tools it evaluated to true. When I ran 109 it evaluated to 1. 
-109 evaluated this way because the variables hold 2 different types of data, 1 is Boolean the other a number.
+// 109 evaluated this way because the variables hold 2 different types of data, 1 is Boolean the other a number.
