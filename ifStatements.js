@@ -87,20 +87,8 @@ if (numQuarters >= 2) {
 var cupsOfFlour = 1;
 var hasSauce = true;
 
-if (cupsOfFlour === 1 && hasSauce === true) {
-console.log("I cannot make pizza");
-}
-cupsOfFlour = 5
-hasSauce = false
-if (cupsOfFlour === 5 && hasSauce === false) {
+if (cupsOfFlour >= 2 && hasSauce === true) {
+console.log("I can make pizza");
+} else {
   console.log("I cannot make pizza");
-}
-cupsOfFlour = 2
-hasSauce = true 
-if (cupsOfFlour === 2 && hasSauce === true) {
-  console.log("I can make pizza");
-}
-cupsOfFlour = 3
-if (cupsOfFlour === 3 && hasSauce === true) {
-  console.log("I can make pizza");
-}
+};
